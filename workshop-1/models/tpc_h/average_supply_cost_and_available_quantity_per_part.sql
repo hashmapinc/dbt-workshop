@@ -14,8 +14,6 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-{{ config(materialized='ephemeral') }}
-
 SELECT
 part_key,
 avg(available_quantity) as average_available_quantity,

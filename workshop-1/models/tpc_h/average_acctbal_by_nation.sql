@@ -14,8 +14,6 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-{{ config(materialized='ephemeral') }}
-
 SELECT
 nation_key,
 avg(account_balance) as average_account_balance

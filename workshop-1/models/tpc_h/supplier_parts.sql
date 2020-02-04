@@ -14,8 +14,6 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-{{ config(materialized='ephemeral') }}
-
 With supplier_parts as (
   SELECT * from snowflake_sample_data.tpch_sf1.supplier
     JOIN snowflake_sample_data.tpch_sf1.partsupp
