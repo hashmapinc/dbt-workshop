@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "workshop-1"
+version = "0.1.0"
+description = "Workshop for dbt training/learning"
+authors = ["John Aven (snoodleboot) <john.aven@hashmapinc.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+dbt = "^0.15.2"
+dbt-snowflake = "^0.15.2"
+snowflake-connector-python = ">=1.6.12,<2.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+
